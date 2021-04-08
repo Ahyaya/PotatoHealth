@@ -1,0 +1,49 @@
+body{
+	background-color:#1b2838;
+}
+.headline{
+	color:#c5c3c0;
+	text-align:center;
+}
+.headline:hover{
+	animation: neon 1.5s ease-in-out infinite alternate;
+}
+.ctime{
+	color:#5cc0d8;
+	text-align:center;
+}
+.digit_blue{
+	color:#ccf;
+	text-align:center;
+}
+.bt{
+	margin:0 10px;
+}
+.addr_pub{
+	text-align:center;
+	color:white;
+}
+.fatal{
+	color:#ff0033;
+}
+table{
+	margin:auto;
+	color:#dfdfdf;
+	width="400";
+	cellpadding="5";
+	border="0";
+}
+.varName{
+	padding:0 10px 0 15px;
+}
+.qual{
+	animation: qualkf 0.5s linear 2 forwards;
+}
+@keyframes neon{
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF;}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF;
+	}
+}
+

@@ -1,0 +1,70 @@
+.status_area{
+	display:inline-table;
+	position:relative;
+	height:80px;
+	width:80px;
+	margin:0;
+	border-radius:50%;
+	border:10px solid #ccf;
+}
+.stat_bar{
+	width:350px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.wrap{
+	width:50px;
+    height:100px;
+    position:absolute;
+	top:0;
+    overflow:hidden;
+}
+.leftblock{left:50px;}
+.rightblock{left:0;}
+.rightcircle{
+	width:80px;
+    height:80px;
+    border-radius:50%;
+    border:10px solid;
+    position:absolute;
+    top:0;
+    left:0;
+    clip:rect(0 auto auto 50px);
+}
+.leftcircle{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	border:10px solid;
+	position:absolute;
+	top:0;
+	left:-50px;
+	clip:rect(0 50px auto 0);
+}
+.cpu_r{
+	animation: cpukf_r 0.5s linear 0.5s forwards;
+}
+.cpu_l{
+	animation: cpukf_l 0.5s linear forwards;
+}
+.ram_r{
+	animation: ramkf_r 0.5s linear 0.5s forwards;
+}
+.ram_l{
+	animation: ramkf_l 0.5s linear forwards;
+}.dsk_r{
+	animation: dskkf_r 0.5s linear 0.5s forwards;
+}
+.dsk_l{
+	animation: dskkf_l 0.5s linear forwards;
+}
+.digitbar{
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:0;
+	top:0;
+	color:#33ccff;
+	text-align:center;
+	line-height:100px;
+}

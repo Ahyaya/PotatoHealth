@@ -1,0 +1,16 @@
+.led{
+	display:inline-table;
+	margin:0 5px 0 0;
+	background:white;
+	height:14px;
+	width:14px;
+	vertical-align:middle;
+	border-radius:50%;
+}
+
+.ongreen{
+	background:radial-gradient(circle at 7px 7px,#ffffff,#66ff33);
+}
+.onred{
+	background:radial-gradient(circle at 7px 7px,#ffffff,#ff0033);
+}

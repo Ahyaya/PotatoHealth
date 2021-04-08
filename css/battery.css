@@ -1,0 +1,21 @@
+.contain_battery{
+	width:35px;
+	height:10px;
+	background-color:#1b2838;
+	border-style:solid;
+	border-width:2px;
+	border-color:#ccf;
+	margin:auto;
+}
+.head_battery{
+	position:relative;
+	left:37px;
+	top:-8px;
+	width:3px;
+	height:6px;
+	background-color:#ccf;
+}
+.status_battery{
+	height:10px;
+	animation:btykf 0.5s ease-out forwards;
+}

@@ -1,0 +1,58 @@
+@keyframes btykf{
+	0%{
+		width:0;
+		background-color:#000000;
+	}
+	100%{
+		width:66%;
+		background-color:#eeff33;
+	}
+}
+@keyframes cpukf_l{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(180deg);
+	}
+}
+@keyframes cpukf_r{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(120deg);
+	}
+}
+@keyframes ramkf_l{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(180deg);
+	}
+}
+@keyframes ramkf_r{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(60deg);
+	}
+}
+@keyframes dskkf_l{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(180deg);
+	}
+}
+@keyframes dskkf_r{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(10deg);
+	}
+}
